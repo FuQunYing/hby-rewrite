@@ -1,0 +1,15 @@
+{
+  "/api": {
+    "target": "http://b.coinect.cn",
+    "secure": false
+  },
+  "/p": {
+    "target": "http://b.coinect.cn",
+    "secure": false
+  },
+  "/w": {
+    "target": "http://b.coinect.cn",
+    "secure": false
+  }
+}
+

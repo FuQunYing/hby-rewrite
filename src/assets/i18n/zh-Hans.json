@@ -1,0 +1,564 @@
+{
+    "dashboard": "首页",
+    "sell": "销量",
+    "device": "机器",
+    "goods": "商品",
+    "member": "会员",
+    "ativity": "活动",
+    "bankcard": "银行卡",
+    "user": "用户中心",
+    "sellgood": "商品",
+    "order": "实时交易",
+    "refund": "退款列表",
+    "selllist": "结算查询",
+    "payment": "移动支付账单",
+    "location": "门店",
+    "loading": "弹窗页",
+    "wxnotice": "微信通知",
+    "account": "子账号",
+    "download": "下载中心",
+    "nodata": "暂无数据",
+    "common": {
+        "channel": "货道",
+        "cardpay": "卡支付",
+        "turnover": "营业额",
+        "salesTime": "交易笔数",
+        "countUnit": "笔",
+        "imgTips": "限200Kb以下,jpg、png格式",
+        "eg": "例：",
+        "add": "新增",
+        "moneyUnit": "元",
+        "timeUnit": "分钟",
+        "modalBtn": {
+            "cancel": "取消",
+            "save": "保存",
+            "save1": "保存商品信息",
+            "saveChannel": "保存货道信息",
+            "upload": "点击上传",
+            "resetImg": "重选图片"
+        },
+        "sex": {
+            "male": "男",
+            "female": "女",
+            "unkown": "未知"
+        },
+        "d3Pay": {
+            "choose": "选择客户端",
+            "all": "全部",
+            "pay": "支付",
+            "wx": "微信",
+            "alipay": "支付宝",
+            "jd": "京东",
+            "baidu": "百度",
+            "QQ": "QQ",
+            "Cash": "现金"
+        },
+        "searchTitle": {
+            "stime": "开始时间",
+            "etime": "结束时间",
+            "sn": "机器SN",
+            "accounts": "收款账户 ",
+            "client": "客户端",
+            "customerNum": "消费者卡号",
+            "orderNum": "订单号",
+            "transNum": "交易单号",
+            "orderState": "状态",
+            "bankCard": "银行卡",
+            "timeType": "时间类型",
+            "orderType": "订单类型",
+            "ordermoney": "订单金额",
+            "orderStatus": "订单状态",
+            "region": "区域",
+            "store": "门店",
+            "money": "交易金额",
+            "paytype": "支付类型"
+        },
+        "searchTips": {
+            "stime": "开始时间",
+            "etime": "结束时间",
+            "sn": "机器SN",
+            "accounts": "消费者卡号",
+            "client": "选择客户端",
+            "customerNum": "消费者卡号",
+            "orderNum": "订单号",
+            "transNum": "交易单号",
+            "chooseState": "选择划款状态",
+            "chooseTime": "选择时间类型",
+            "orderType": "选择订单类型"
+        },
+        "searchBtn": {
+            "search": "搜索",
+            "empty": "清空",
+            "clear": "清空搜索条件",
+            "download": "下载本页",
+            "refreshState": "刷新状态",
+            "termSearch": "条件搜索",
+            "reset": "重置条件",
+            "bookDownload": "预约下载",
+            "storeDownload": "区域门店统计下载"
+        }
+    },
+    "index": {
+        "cwy": "比昨天",
+        "income": {
+            "today": "今日收入",
+            "yesterday": "昨天收入"
+        },
+        "count": {
+            "count": "笔",
+            "today": "今日销售笔数",
+            "yesterday": "昨天销售笔数"
+        },
+        "unit": {
+            "today": "今日客单价",
+            "yesterday": "昨天客单价"
+        },
+        "device": {
+            "unit": "单位",
+            "count": "台",
+            "online": "当前在线设备",
+            "offline": "当前离线设备",
+            "total": "设备总数量"
+        },
+        "chart": {
+            "today": "今日销售汇总",
+            "month": "今月销售汇总",
+            "goods": "本月畅销商品",
+            "device": "本月畅销机器"
+        }
+    },
+    "SellGoods": {
+        "thead": {
+            "time": "交易时间",
+            "type": "交易类型",
+            "tradeNum": "交易单号",
+            "state": "交易状态",
+            "order": "订单号",
+            "member": "会员信息",
+            "money": "交易金额",
+            "machine": "设备信息",
+            "goods": "商品",
+            "ordernum": "账单号",
+            "account": "收款账户"
+        },
+        "goodState": "已出货",
+        "state": {
+            "pay": "已支付",
+            "complete": "已完成",
+            "change": "已完成(已找零)",
+            "refund": "已退款"
+        },
+        "expand": {
+            "open": "展开详情",
+            "close": "关闭详情"
+        },
+        "pay": {
+          "cash": "现金支付",
+          "mobile": "移动支付"
+        }
+    },
+    "SellBill": {
+        "summary": {
+            "income": "收入金额：",
+            "service": "服务费：",
+            "total": "总收入金额：",
+            "accounted": "已入账："
+        },
+        "state": {
+            "all": "全部",
+            "toBank": "已提交银行受理",
+            "suc": "成功",
+            "fail": "划款失败",
+            "acc": "账单累计中",
+            "hangUp": "结算挂起",
+            "itemHangUp": "结算挂起，请联系客服"
+        },
+        "timeOpt": {
+            "deal": "交易时间",
+            "transfer": "划款时间"
+        },
+        "thead": {
+            "account": "收款账户",
+            "money": "入账金额",
+            "bankCard": "银行卡号",
+            "bank": "银行名字",
+            "owner": "持卡人",
+            "transTime": "交易时间",
+            "service": "手续费",
+            "icome": "入账金额",
+            "orderNum": "账单号",
+            "state": "划款状态",
+            "transfer": "划款日期"
+        }
+    },
+    "SellRefund": {
+        "orderType": {
+            "refund": "退款",
+            "recharge": "充值"
+        },
+        "thead": {
+            "refundNum": "退款单号",
+            "type": "类型",
+            "money": "金额",
+            "state": "状态",
+            "submitTime": "提交时间",
+            "member": "会员卡号",
+            "belong": "订单归属",
+            "disposalTime": "处理时间",
+            "detail": "详情备注"
+        }
+    },
+    "Device": {
+        "title": "机器列表",
+        "options": {
+            "list": "列表展示",
+            "card": "卡片展示"
+        },
+        "thead": {
+            "device": "设备信息",
+            "qrcode": "二维码物料",
+            "qrcodeMin": "二维码",
+            "position": "门店信息",
+            "state": "状态",
+            "goods": "产品",
+            "account": "收款帐户",
+            "handel": "操作"
+        },
+        "handle": {
+            "manage": "管理货架",
+            "device": "设备信息",
+            "setting": "配置信息"
+        },
+        "noPosition": "暂无门店信息",
+        "state": {
+            "online": "在线",
+            "offline": "离线",
+            "none": "暂无状态"
+        }
+    },
+    "EditDeviceInfo": {
+        "label": {
+            "name": "设备名称",
+            "store": "所在门店"
+        },
+        "tips": {
+            "name": "设备名称",
+            "group": "请选择区域",
+            "store": "请选择门店",
+            "noStore": "该区域暂时没有门店，您可以",
+            "addStore": "添加门店",
+            "nameRequired": "请输入门店名称",
+            "storeRequired": "请为机器选择所在门店"
+        }
+    },
+    "Channel": {
+        "noChannel": "未能检查到设备货道,请重启设备",
+        "add": "一键补货",
+        "dec": "一键沽清",
+        "exhibit": "批量上货",
+        "clear": "清空全部信息",
+        "output": "导出货道信息",
+        "tips": "以上为设备一些快捷键操作",
+        "quantity": "余量",
+        "noGoods": "未上架商品",
+        "addMax": "补满",
+        "decMin": "沽清"
+    },
+    "EditChannel": {
+        "title": "信息",
+        "time": "时长：",
+        "desc": "规格：",
+        "price": "价格：",
+        "noGoods": "未上架商品",
+        "tips": "点击右边商品可以快速上架商品",
+        "selectTips": "选择对应货道，可以批量上货/修改货道。批量上货会覆盖当前已上架信息",
+        "tag": "商品",
+        "label": {
+            "maxcap": "货道容量",
+            "quantity": "剩余数量",
+            "price": "售卖价格",
+            "isonline": "是否可售",
+            "status": "货道状态",
+            "title": "货物标题"
+        },
+        "handle": {
+            "fill": "一键补满",
+            "remove": "移除商品",
+            "selectAll": "全选"
+        },
+        "goodsStatus": {
+            "normal": "正常",
+            "abnormal": "异常",
+            "empty": "缺货"
+        },
+        "goodList": "商品列表",
+        "warn": "注意： 红色背景为未通过审核的商品，不可上架售卖；"
+    },
+    "Qrcode": {
+        "download": "点击标题可下载"
+    },
+    "Location": {
+        "group": "区域",
+        "store": "门店",
+        "position": "位置",
+        "manage": "管理",
+        "change": "修改",
+        "noStore": "暂无门店",
+        "label": {
+            "chooseGroup": "选择区域",
+            "gorupStore": "区域/门店",
+            "position": "位置名称",
+            "addres": "详细地址",
+            "admin": "联系人"
+        },
+        "tips": {
+            "group": "请选择区域",
+            "empty": "列表为空",
+            "location": "请选择所在省市县",
+            "desc": "请填写备注"
+        },
+        "thead": {
+            "groupName": "区域名称",
+            "storeName": "门店名称",
+            "positionName": "位置名称",
+            "storeNum": "门店数量",
+            "mobile": "联系电话",
+            "desc": "备注",
+            "time": "创建时间",
+            "handle": "操作",
+            "groupBefore": "所属区域",
+            "location": "所在省市县",
+            "deviceNum": "设备数量",
+            "addres": "门店地址",
+            "phone": "位置电话",
+            "groupStore": "区域门店",
+            "id": "位置ID"
+        },
+        "error": {
+            "groupName": "请输入区域名称",
+            "storeName": "请输入门店名称",
+            "positionName": "请输入位置名称",
+            "groupStore": "请选择区域及门店",
+            "addres": "请输入门店详细地址",
+            "admin": "请输入联系人",
+            "mobile": "请输入联系电话"
+        }
+    },
+    "Goods": {
+        "options": {
+            "personal": "个人库",
+            "cloud": "云库"
+        },
+        "handle": {
+            "newGoods": "新增个人商品库",
+            "manageGoods": "管理图片资源"
+        },
+        "goods": {
+            "price": "价格：",
+            "time": "时长：",
+            "format": "规格：",
+            "sell": "已售：",
+            "abstract": "简介：",
+            "handle": {
+                "del": "删除",
+                "edit": "编辑",
+                "addToPerson": "提交审核",
+                "audit": "审核中",
+                "syncToCloud": "同步到个人库"
+            }
+        },
+        "goodTag": {
+            "all": "全部商品",
+            "serve": "服务类",
+            "entity": "实体类",
+            "drink": "饮品",
+            "sock": "零食",
+            "tips": "分类筛选功能即将上线，敬请期待"
+        }
+    },
+    "EditGoods": {
+        "label": {
+            "type": "商品类型",
+            "name": "商品名称",
+            "price": "商品价格",
+            "time": "服务时长",
+            "format": "规格",
+            "desc": "描述",
+            "img": "图片"
+        },
+        "type": {
+            "entity": "实体商品",
+            "serve": "服务类商品"
+        },
+        "tips": {
+            "name": "商品名称",
+            "desc": "商品描述，30字以内"
+        },
+        "imgListTitle": "可用图片"
+    },
+    "EditImg": {
+        "list": "图片列表",
+        "uploadTitle": "图片上传",
+        "uploadBtn": "点击上传图片",
+        "uploadTip1": "每人最多可以上传100张200Kb以下的图片(格式：JPG/PNG)",
+        "uploadTip2": "公测版一次只能上传一张，后续将会开放批量上传"
+    },
+    "Member": {
+        "title": "会员列表",
+        "thead": {
+            "card": "卡号",
+            "type": "卡类型",
+            "balance": "卡余额",
+            "rechargeTotal": "累积充值",
+            "spendingTotal": "累积消费",
+            "latest": "最后一次充值/消费",
+            "latestDevice": "最后一次充值/消费设备",
+            "account": "储蓄池账户",
+            "storagePoolBalance": "储蓄池余额"
+        }
+    },
+    "Loading": {
+        "title": "活动弹窗配置",
+        "switch": "活动弹窗：",
+        "open": "开",
+        "close": "关",
+        "tipsTitle": "示例说明",
+        "switchTips": "默认关闭；开启后，支付页面载入时将会展示活动弹窗",
+        "tips11": "1、当您在",
+        "tips1Strong": "营销活动",
+        "tips12": "里面增加充值返赠活动，并开启loading page；消费者扫描二维码，会先展示您设置的充值翻赠优惠信息。",
+        "tips2": "2、活动弹窗配置默认展示5秒；可以随时关闭",
+        "tips31": "3、活动弹窗配置优先展示您设置的营销活动；如近期无营销活动，则展示支付渠道活动（如：",
+        "tips32": "鼓励金）",
+        "tips4": "4、如无任何活动，则展示购物流程提示",
+        "imgTips1": "营销活动 图示",
+        "imgTips2": "渠道活动 图示",
+        "imgTips3": "购物帮助 图示"
+    },
+    "Activity": {
+        "title": "营销活动",
+        "skip": "快速选择",
+        "activity": "活动",
+        "to": "至",
+        "fill": "满",
+        "gift": "赠",
+        "times": "次",
+        "percent": "次/人",
+        "change": "修改活动",
+        "vrmoney": "优惠金额",
+        "device": "设备",
+        "noDevice": "暂无设备",
+        "thead": {
+            "name": "活动名称",
+            "desc": "优惠说明",
+            "percent": "优惠次数",
+            "total": "发放总量",
+            "range": "活动范围",
+            "count": "营销统计",
+            "time": "活动时间",
+            "updatetime": "操作时间",
+            "state": "活动状态",
+            "handle": "操作"
+        },
+        "tips": {
+            "state": "请选择活动状态",
+            "name": "请输入活动名称",
+            "stime": "请选择活动开始时间",
+            "etime": "请选择活动结束时间",
+            "percent": "请限制每人参与次数",
+            "eg": "例如：满10赠5，即充值10圆送5圆（红包）",
+            "warn": "注意：赠送的金额不能超过本金50%",
+            "nameLimit": "活动名称长度最大为15字",
+            "range1": "活动范围指的是参与本活动的设备；",
+            "range2": "默认全部设备参与，也可以选择某区域/门店，或者针对单一设备"
+        },
+        "inputTips": {
+            "name": "活动名称（2-15字）",
+            "percent": "活动期间每人最大领取次数",
+            "total": "不填写默认为不限制发放总量"
+        },
+        "detail": {
+            "stotal": "发行量",
+            "vrtotal": "总金额",
+            "act_time": "累计参与次数",
+            "act_money": "累计充值金额",
+            "act_vrmoney": "累计赠送金额",
+            "addtime": "创建时间",
+            "updatetime": "修改时间"
+        },
+        "timeChose": {
+            "clear": "清空时间",
+            "today": "今日",
+            "yestoday": "昨日",
+            "last7": "最近七日",
+            "thisMonth": "本月",
+            "lastMonth": "上月"
+        },
+        "state": {
+            "inline": "活动进行中",
+            "online": "活动上线",
+            "offline": "活动下线",
+            "end": "活动结束",
+            "willStart": "活动未开始"
+        }
+    },
+    "Bankcard": {
+        "account": {
+            "title": "收款账户",
+            "unliquidated": "未结算金额",
+            "freeze": "冻结备付金",
+            "account": "标题",
+            "state": {
+                "suc": "正常"
+            },
+            "main": "主收款账户",
+            "msgTitle": "收款信息",
+            "time": "创建时间"
+        },
+        "bankCard": {
+            "title": "银行卡",
+            "type": {
+                "person": "对私账号",
+                "public": "对公账号"
+            },
+            "position": "所在省市",
+            "card": "银行卡号",
+            "phone": "持卡人手机号",
+            "idCard": "证件号"
+        },
+        "wechat": {
+            "title": "微信账户列表",
+            "name": "真实姓名",
+            "idCard": "证件号码",
+            "phone": "手机号码",
+            "time": "创建时间",
+            "type": "用户类型"
+        }
+    },
+    "Wxnotice": {
+        "Edit": {
+            "typeLabel": "账号类型：",
+            "admin": "管理员",
+            "loader": "补货员",
+            "adminTip": "可以接收到机器异常通知，补货/缺货通知，消费者投诉(后期支持)",
+            "loaderTip": "可以接收到补货/缺货通知"
+        },
+        "List": {
+            "switch": "消息开关：",
+            "sex": "性别：",
+            "country": "国籍：",
+            "position": "位置："
+        },
+        "handle": {
+            "del": "删除",
+            "new": "新增",
+            "refresh": "刷新列表"
+        }
+    },
+    "Account": {
+        "handle": {
+            "add": "添加子账号",
+            "tips": "注意：暂时不支持自定义子账号权限"
+        }
+    }
+}

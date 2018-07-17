@@ -1,0 +1,17 @@
+@import "reset";
+@import "font/iconfont.scss";
+@import "variable/variable";
+@import "global";
+@import "font";
+@import "card";
+@import "paytype";
+@import "app/index";
+
+// 其他
+.m-b {
+  margin-bottom: 30px;
+}
+
+.bg-grey {
+  background: #f7f7f7 !important;
+}

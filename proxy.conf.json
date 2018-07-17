@@ -1,0 +1,14 @@
+{
+  "/api": {
+    "target": "http://10.24.194.9:8888",
+    "secure": false
+  },
+  "/p": {
+    "target": "http://10.24.194.9:8888",
+    "secure": false
+  },
+  "/w": {
+    "target": "http://10.24.194.9:8888",
+    "secure": false
+  }
+}

@@ -1,0 +1,42 @@
+.list {
+  list-style: none;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.65);
+  box-sizing: border-box;
+  margin-top: 12px;
+  padding: 0;
+  position: relative;
+
+  li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+}
+
+.ant-layout-sider {
+  background: #fff !important;
+}
+
+.aside-collapsed {
+  .logo {
+    img {
+      max-width: 36px !important;
+
+      &.collapsed {
+        display: inline !important;
+      }
+
+      &.expanded {
+        display: none !important;
+      }
+    }
+  }
+}
+
+.t-ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

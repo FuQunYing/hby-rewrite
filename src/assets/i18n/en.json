@@ -1,0 +1,563 @@
+{
+    "dashboard": "Dashboard",
+    "sell": "Sales record",
+    "device": "Device",
+    "goods": "Goods",
+    "member": "Member",
+    "ativity": "Ativity",
+    "bankcard": "Bankcard",
+    "user": "Settings",
+    "sellgood": "Goods",
+    "refund": "Refund",
+    "order": "Real-time Trading",
+    "payment": "Payment Bill",
+    "selllist": "Balance Report",
+    "location": "Location",
+    "loading": "Loading Page",
+    "wxnotice": "Wechat Notice",
+    "account": "Sub-accounts",
+    "download": "Download",
+    "nodata": "No Data",
+    "common": {
+        "channel": "Channel",
+        "cardpay": "Card Pay",
+        "turnover": "Turn Over",
+        "salesTime": "Deal Times",
+        "countUnit": "Times",
+        "imgTips": "Limit: Small than 200Kb ,jpg or png",
+        "eg": "e.g.",
+        "add": "New",
+        "moneyUnit": "yuan",
+        "timeUnit": "min",
+        "modalBtn": {
+            "cancel": "Cancel",
+            "save": "Save",
+            "save1": "Save",
+            "saveChannel": "Save",
+            "upload": "Upload",
+            "resetImg": "Reset"
+        },
+        "sex": {
+            "male": "Male",
+            "female": "Female",
+            "unkown": "Unkown"
+        },
+        "d3Pay": {
+            "choose": "Choose The Client",
+            "all": "All",
+            "pay": "Pay",
+            "wx": "Wechat",
+            "alipay": "Alipay ",
+            "jd": "JD",
+            "baidu": "Baidu",
+            "QQ": "QQ",
+            "Cash": "Cash"
+        },
+        "searchTitle": {
+            "stime": "Start Time",
+            "etime": "End Time",
+            "sn": "SN Of The Device",
+            "accounts": "Accounts",
+            "client": "Client",
+            "customerNum": "Card Num",
+            "orderNum": "Order Num",
+            "transNum": "Trans Num",
+            "orderState": "Order State",
+            "bankCard": "Bankcard",
+            "timeType": "Type Of Time",
+            "orderType": "Type Of Order",
+            "orderStatus": "Order Status",
+            "ordermoney": "Order Money",
+            "region": "Region",
+            "store": "Store",
+            "money": "Amount of the transaction",
+            "paytype": "Payment Type"
+        },
+        "searchTips": {
+            "stime": "Start Time",
+            "etime": "End Time",
+            "sn": "SN Of The Device",
+            "accounts": "Accounts",
+            "client": "Please Select Client",
+            "customerNum": "Card Num",
+            "orderNum": "Order Num",
+            "transNum": "Trans Num",
+            "chooseState": "Select Order State",
+            "chooseTime": "Select Type Of Time",
+            "orderType": "Select Type Of Order"
+        },
+        "searchBtn": {
+            "search": "Search",
+            "empty": "Empty",
+            "clear": "Empty",
+            "download": "Download This Page",
+            "refreshState": "Refresh The State",
+            "termSearch": "Search By term",
+            "reset": "Reset Term",
+            "bookDownload": "Schedule Download",
+            "storeDownload": "Regional store statistics download"
+        }
+    },
+    "index": {
+        "cwy": "Compared with yesterday",
+        "income": {
+            "today": "Today's income",
+            "yesterday": "Yesterday's income"
+        },
+        "count": {
+            "count": "Count",
+            "today": "Today's Sales volume",
+            "yesterday": "Yesterday's Sales volume"
+        },
+        "unit": {
+            "today": "Per capita consumption",
+            "yesterday": "Yesterday's"
+        },
+        "device": {
+            "unit": "Unit",
+            "count": "count",
+            "online": "Current online device",
+            "offline": "Current offline device",
+            "total": "Total"
+        },
+        "chart": {
+            "today": "Today's sales summary",
+            "month": "This month's sales summary",
+            "goods": "The best-selling goods in this month",
+            "device": "The best-selling device in this month"
+        }
+    },
+    "SellGoods": {
+        "thead": {
+            "time": "Time",
+            "type": "Type",
+            "tradeNum": "Transaction Number",
+            "state": "Transaction State",
+            "order": "Order Number",
+            "member": "Member",
+            "money": "Transaction Amount",
+            "machine": "Device",
+            "goods": "Goods",
+            "ordernum": "Order Number",
+            "account": "Account"
+        },
+        "goodState": "Shiped Out",
+        "state": {
+            "pay": "Paid",
+            "complete": "Completed",
+            "change": "Completed(Changed)",
+            "refund": "Refunded"
+        },
+        "expand": {
+            "open": "Show Detail",
+            "close": "Hide Detail"
+        },
+        "pay": {
+          "cash": "Cash Payment",
+          "mobile": "Mobile Payment"
+        }
+    },
+    "SellBill": {
+        "summary": {
+            "income": "Income:",
+            "service": "Rate:",
+            "total": "Total:",
+            "accounted": "Has Posted:"
+        },
+        "state": {
+            "all": "All",
+            "toBank": "Submitted",
+            "suc": "Success",
+            "fail": "Transfer Fail",
+            "acc": "Order Adding Up",
+            "hangUp": "Balance HandUp",
+            "itemHangUp": "Balance HandUp, Please Contact Customer Service"
+        },
+        "timeOpt": {
+            "deal": "Trade Time",
+            "transfer": "Transfer Time"
+        },
+        "thead": {
+            "account": "Account",
+            "money": "Amount",
+            "bankCard": "Bank Card",
+            "bank": "Bank",
+            "owner": "Card Owner",
+            "transTime": "Trans Time",
+            "service": "Service Charge",
+            "orderNum": "Order Number",
+            "state": "State",
+            "transfer": "Transfer Date"
+        }
+    },
+    "SellRefund": {
+        "orderType": {
+            "refund": "Refund",
+            "recharge": "Recharge"
+        },
+        "thead": {
+            "refundNum": "Refund Number",
+            "type": "Type",
+            "money": "Money",
+            "state": "State",
+            "submitTime": "Submit Time",
+            "member": "Member",
+            "belong": "Order Belong",
+            "disposalTime": "Disposal Time",
+            "detail": "Detail"
+        }
+    },
+    "Device": {
+        "title": "Device list",
+        "options": {
+            "list": "List",
+            "card": "Card List"
+        },
+        "thead": {
+            "qrcodeMin": "QRCode",
+            "device": "Device",
+            "qrcode": "QRCode",
+            "position": "Position",
+            "state": "State",
+            "goods": "Goods",
+            "account": "Account",
+            "handel": "Handle"
+        },
+        "handle": {
+            "manage": "Manage",
+            "device": "Device Info",
+            "setting": "Edit Setting"
+        },
+        "noPosition": "No Location Message",
+        "state": {
+            "online": "Online",
+            "offline": "Offline",
+            "none": "None"
+        }
+    },
+    "EditDeviceInfo": {
+        "label": {
+            "name": "Device Name",
+            "store": "Store"
+        },
+        "tips": {
+            "name": "Device Name",
+            "group": "Select Group",
+            "store": "Select Store",
+            "noStore": "There is no store in this group, you can",
+            "addStore": "Add Store",
+            "nameRequired": "Please enter store name",
+            "storeRequired": "Please select the store for the machine"
+        }
+    },
+    "Channel": {
+        "noChannel": "Can not find channel, please restart the device.",
+        "add": "Top UP ALL Channel",
+        "dec": "Clear All Channel",
+        "exhibit": "Exhibit Goods Batch",
+        "clear": "Clear All Channel Message",
+        "output": "Export Channel Message",
+        "tips": "The above is some quick operation of the device",
+        "quantity": "Quantity",
+        "noGoods": "No Goods",
+        "addMax": "Fill",
+        "decMin": "Empty"
+    },
+    "EditChannel": {
+        "title": "Message",
+        "time": "Time:",
+        "desc": "Size:",
+        "price": "Price:",
+        "noGoods": "No Goods",
+        "tips": "Click the product of the right side to fill the goods quickly.",
+        "selectTips": "Choose the goods channel, you can batch goods or edit channel.Bulk loading will cover the currently available information.",
+        "tag": "Goods",
+        "label": {
+            "maxcap": "Maxcap",
+            "quantity": "Quantity",
+            "price": "Price",
+            "isonline": "Can Sale",
+            "status": "State",
+            "title": "Goods Title"
+        },
+        "handle": {
+            "fill": "Fill",
+            "remove": "Remove",
+            "selectAll": "Select All"
+        },
+        "goodsStatus": {
+            "normal": "Normal",
+            "abnormal": "Abnormal",
+            "empty": "Stockout"
+        },
+        "goodList": "Goods List",
+        "warn": "Notice: The red background is unapproved products, which cannot be sold on shelves;"
+    },
+    "Qrcode": {
+        "download": "Click Title To Download"
+    },
+    "Location": {
+        "group": "Group",
+        "store": "Store",
+        "position": "Position",
+        "manage": "Manage",
+        "change": "Edit",
+        "noStore": "No Store",
+        "label": {
+            "chooseGroup": "Select Group",
+            "gorupStore": "Group/Store",
+            "position": "Position Name",
+            "addres": "Addres",
+            "admin": "Admin"
+        },
+        "tips": {
+            "group": "Select Group",
+            "empty": "No Data",
+            "location": "Select Location",
+            "desc": "Please input in the marks"
+        },
+        "thead": {
+            "groupName": "Group Name",
+            "storeName": "Store Name",
+            "positionName": "Position Name",
+            "storeNum": "Number of Store",
+            "mobile": "Mobile",
+            "desc": "Marks",
+            "time": "Create Time",
+            "handle": "Handle",
+            "groupBefore": "Region",
+            "location": "Location",
+            "deviceNum": "Number of Device",
+            "addres": "Store Addres",
+            "phone": "Mobile",
+            "groupStore": "Group or Store",
+            "id": "ID"
+        },
+        "error": {
+            "groupName": "Please input group name",
+            "storeName": "Please input store name",
+            "positionName": "Please input position name",
+            "groupStore": "Please select group and store",
+            "addres": "Please input store addres",
+            "admin": "Please input contact person",
+            "mobile": "Please input contact mobile"
+        }
+    },
+    "Goods": {
+        "options": {
+            "personal": "Personal",
+            "cloud": "Cloud"
+        },
+        "handle": {
+            "newGoods": "New Goodsbank",
+            "manageGoods": "Image Manage"
+        },
+        "goods": {
+            "price": "Price:",
+            "time": "Time:",
+            "format": "Format:",
+            "sell": "Sell:",
+            "abstract": "Abstract",
+            "handle": {
+                "del": "Del",
+                "edit": "Edit",
+                "addToPerson": "Submit Audit",
+                "audit": "Audit",
+                "syncToCloud": "Sync"
+            }
+        },
+        "goodTag": {
+            "all": "ALL",
+            "serve": "Service",
+            "entity": "Entity",
+            "drink": "Drink",
+            "sock": "Sock",
+            "tips": "Classification filtering is coming soon."
+        }
+    },
+    "EditGoods": {
+        "label": {
+            "type": "Type",
+            "name": "Name",
+            "price": "Price",
+            "time": "Time",
+            "format": "Format",
+            "desc": "Desc",
+            "img": "Image"
+        },
+        "type": {
+            "entity": "Entity",
+            "serve": "Service"
+        },
+        "tips": {
+            "name": "Goods Name",
+            "desc": "Goods Desc, within 30 letter"
+        },
+        "imgListTitle": "Pictures Available"
+    },
+    "EditImg": {
+        "list": "Pictures List",
+        "uploadTitle": "Upload Pictures",
+        "uploadBtn": "Upload",
+        "uploadTip1": "Each person can upload up to 100 photos below 200Kb.(Format:JPG/PNG)",
+        "uploadTip2": "The beta version can only be uploaded one at a time, and will be open to batch uploads later."
+    },
+    "Member": {
+        "title": "Member List",
+        "thead": {
+            "card": "Card Number",
+            "type": "Card Type",
+            "balance": "Card Balance",
+            "rechargeTotal": "Recharge Total",
+            "spendingTotal": "Spending Total",
+            "latest": "Latest Order",
+            "latestDevice": "Latest Use Device",
+            "account": "Storage Pool Account",
+            "storagePoolBalance": "Storage Pool Balance"
+        }
+    },
+    "Loading": {
+        "title": "Active Popover Config",
+        "switch": "Use Popover",
+        "open": "√",
+        "close": "×",
+        "tipsTitle": "Example",
+        "switchTips": "Default shutdown; When the payment page loads, the active popover will be displayed.",
+        "tips11": "1.When you new the activity in",
+        "tips1Strong": "Activity Page",
+        "tips12": ", and user the Popover. The consumer scan qr code, will show you set the top value to turn over the discount information.",
+        "tips2": "2.The active popover configuration is displayed by default for 5 seconds; It can be closed at any time",
+        "tips31": "3.The activity popover window configuration gives priority to the marketing activities you set. If there is no marketing activity in the near future, the payment channel activity (e.g.",
+        "tips32": " Encourage gold)",
+        "tips4": "4.If there is no activity, show the shopping process prompt.",
+        "imgTips1": "Marketing Activities Example",
+        "imgTips2": "Channel Activities Example",
+        "imgTips3": "Shopping Help Example"
+    },
+    "Activity": {
+        "title": "Activity",
+        "skip": "Fast Select",
+        "activity": "Activity",
+        "to": "TO",
+        "fill": "Consume",
+        "gift": "Present",
+        "times": "Times",
+        "percent": "Times/Person",
+        "change": "Edit",
+        "vrmoney": "Coupon",
+        "device": "Device",
+        "noDevice": "No Device",
+        "thead": {
+            "name": "Name",
+            "desc": "Desc",
+            "percent": "Times",
+            "total": "Total",
+            "range": "Range",
+            "count": "Count",
+            "time": "Activity Time",
+            "updatetime": "Update Time",
+            "state": "Activity State",
+            "handle": "handle"
+        },
+        "tips": {
+            "state": "Select Activity State",
+            "name": "Input Activity Name",
+            "stime": "Input Start Time",
+            "etime": "Input End Time",
+            "percent": "Please limit the number of participants.",
+            "eg": "e.g. Present 10 Present 5, means 10 yuan to give 5 yuan(red package)",
+            "warn": "Note: The amount given can't exceed the  50% of principal.",
+            "nameLimit": "The maximum length of the activity is 15 words.",
+            "range1": "The range of activity means appoint the device which will hold the activity.",
+            "range2": "All device will hold the activity with default.You can select some groups or store to hold the activity. Or you can appoint the device to hold the activity."
+        },
+        "inputTips": {
+            "name": "Activity Name (2-15 words)",
+            "percent": "Maximum number of times per person during the activity.",
+            "total": "If you don't fill this field, it's default to unlimit the total."
+        },
+        "detail": {
+            "stotal": "Issue Volume",
+            "vrtotal": "Money Total",
+            "act_time": "Times Total",
+            "act_money": "Recharge Total",
+            "act_vrmoney": "Gift Total",
+            "addtime": "Create Time",
+            "updatetime": "Update Time"
+        },
+        "timeChose": {
+            "clear": "Clear",
+            "today": "Today",
+            "yestoday": "Yestoday",
+            "last7": "In Recent 7",
+            "thisMonth": "This Month",
+            "lastMonth": "Last Month"
+        },
+        "state": {
+            "inline": "In motion",
+            "online": "Online",
+            "offline": "Offline",
+            "end": "End",
+            "willStart": "Not Begin"
+        }
+    },
+    "Bankcard": {
+        "account": {
+            "title": "Account List",
+            "unliquidated": "Unliquidated",
+            "freeze": "Freeze",
+            "account": "Title",
+            "state": {
+                "suc": "Normal"
+            },
+            "main": "Main Account",
+            "msgTitle": "Message",
+            "time": "Create Time"
+        },
+        "bankCard": {
+            "title": "Bank Card List",
+            "type": {
+                "person": "Private Account",
+                "public": "Public Account"
+            },
+            "position": "Position",
+            "card": "Card Number",
+            "phone": "Phone Number",
+            "idCard": "Certificate ID"
+        },
+        "wechat": {
+            "title": "WeChat Account List",
+            "name": "Name",
+            "phone": "Phone Number",
+            "idCard": "ID Card",
+            "time": "Create Time",
+            "type": "Account Type"
+        }
+    },
+    "Wxnotice": {
+        "Edit": {
+            "typeLabel": "Account type:",
+            "admin": "Admin",
+            "loader": "Loader",
+            "adminTip": "Can receive machine exception notification, replenishment or shorts report, and complaints(Coming Soon).",
+            "loaderTip": "You can receive replenishment or shorts report"
+        },
+        "List": {
+            "switch": "Msg Switch:",
+            "sex": "Sex:",
+            "country": "Country:",
+            "position": "Position:"
+        },
+        "handle": {
+            "del": "Del",
+            "new": "New",
+            "refresh": "Refresh"
+        }
+    },
+    "Account": {
+        "handle": {
+            "add": "add sub-account",
+            "tips": "tips:"
+        }
+    }
+}

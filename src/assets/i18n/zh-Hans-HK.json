@@ -1,0 +1,564 @@
+{
+    "dashboard": "儀表板",
+    "sell": "銷量",
+    "device": "機器",
+    "goods": "商品",
+    "member": "會員",
+    "ativity": "活動",
+    "bankcard": "銀行卡",
+    "user": "用戶中心",
+    "sellgood": "商品",
+    "order": "實時交易",
+    "refund": "退款列表",
+    "payment": "移動支付賬單",
+    "selllist": "結算查詢",
+    "location": "門店",
+    "loading": "Loading頁面",
+    "wxnotice": "Wechat即時推送",
+    "account": "子賬號",
+    "download": "下載中心",
+    "nodata": "暫無數據",
+    "common": {
+        "channel": "貨道",
+        "cardpay": "卡支付",
+        "turnover": "營業額",
+        "salesTime": "交易筆數",
+        "countUnit": "筆",
+        "imgTips": "限200Kb以下,jpg、png格式",
+        "eg": "例：",
+        "add": "新增",
+        "moneyUnit": "圓",
+        "timeUnit": "分鐘",
+        "modalBtn": {
+            "cancel": "取消",
+            "save": "保存",
+            "save1": "保存商品信息",
+            "saveChannel": "保存貨道信息",
+            "upload": "點擊上傳",
+            "resetImg": "重選圖片"
+        },
+        "sex": {
+            "male": "男",
+            "female": "女",
+            "unkown": "未知"
+        },
+        "d3Pay": {
+            "choose": "選擇客戶端",
+            "all": "全部",
+            "pay": "支付",
+            "wx": "Wechat",
+            "alipay": "AlipayHK",
+            "jd": "京東",
+            "baidu": "百度",
+            "QQ": "QQ",
+            "Cash": "現金"
+        },
+        "searchTitle": {
+            "stime": "開始時間",
+            "etime": "結束時間",
+            "sn": "機台SN",
+            "accounts": "收款帳戶 ",
+            "client": "客戶端",
+            "customerNum": "消費者卡號",
+            "orderNum": "訂單號",
+            "transNum": "交易單號",
+            "orderState": "狀態",
+            "bankCard": "銀行卡",
+            "timeType": "時間類型",
+            "orderType": "訂單類型",
+            "orderStatus": "訂單狀態",
+            "ordermoney": "訂單金額",
+            "region": "區域",
+            "store": "門店",
+            "money": "交易金額",
+            "paytype": "支付類型"
+        },
+        "searchTips": {
+            "stime": "開始時間",
+            "etime": "結束時間",
+            "sn": "機台 SN",
+            "accounts": "消費者卡號 ",
+            "client": "選擇客戶端",
+            "customerNum": "消費者卡號",
+            "orderNum": "訂單號",
+            "transNum": "交易單號",
+            "chooseState": "選擇劃款狀態",
+            "chooseTime": "選擇時間類型",
+            "orderType": "選擇訂單類型"
+        },
+        "searchBtn": {
+            "search": "搜索",
+            "empty": "清空",
+            "clear": "清空搜索條件",
+            "download": "下載本頁",
+            "refreshState": "刷新狀態",
+            "termSearch": "條件搜索",
+            "reset": "重置條件",
+            "bookDownload": "預約下載",
+            "storeDownload": "區域門店統計下載"
+        }
+    },
+    "index": {
+        "cwy": "比昨天",
+        "income": {
+            "today": "今日收入",
+            "yesterday": "昨天收入"
+        },
+        "count": {
+            "count": "筆",
+            "today": "今日銷售筆數",
+            "yesterday": "昨天銷售筆數"
+        },
+        "unit": {
+            "today": "今日客單價",
+            "yesterday": "昨天客單價"
+        },
+        "device": {
+            "unit": "單位",
+            "count": "臺",
+            "online": "當前在線設備",
+            "offline": "當前離線設備",
+            "total": "設備總數量"
+        },
+        "chart": {
+            "today": "今日銷售匯總",
+            "month": "本月銷售匯總",
+            "goods": "本月暢銷商品",
+            "device": "本月暢銷機器"
+        }
+    },
+    "SellGoods": {
+        "thead": {
+            "time": "交易時間",
+            "type": "交易類型",
+            "tradeNum": "交易單號",
+            "state": "交易狀態",
+            "order": "訂單號",
+            "member": "會員信息",
+            "money": "交易金額",
+            "machine": "設備信息",
+            "goods": "商品",
+            "ordernum": "賬單號",
+            "account": "收款賬戶"
+        },
+        "goodState": "已出貨",
+        "state": {
+            "pay": "已支付",
+            "complete": "已完成",
+            "change": "已完成(已找零)",
+            "refund": "已退款"
+        },
+        "expand": {
+            "open": "展開詳情",
+            "close": "關閉詳情"
+        },
+        "pay": {
+          "cash": "現金支付",
+          "mobile": "移動支付"
+        }
+    },
+    "SellBill": {
+        "summary": {
+            "income": "收入金額：",
+            "service": "服務費：",
+            "total": "總收入金額：",
+            "accounted": "已入賬金額："
+        },
+        "state": {
+            "all": "全部",
+            "toBank": "已提交銀行受理",
+            "suc": "成功",
+            "fail": "劃款失敗",
+            "acc": "賬單累計中",
+            "hangUp": "結算掛起",
+            "itemHangUp": "結算掛起，請聯繫客服"
+        },
+        "timeOpt": {
+            "deal": "交易時間",
+            "transfer": "劃款時間"
+        },
+        "thead": {
+            "account": "收款賬户",
+            "money": "入賬金额",
+            "bankCard": "銀行卡號",
+            "bank": "銀行名字",
+            "owner": "持卡人",
+            "transTime": "交易時間",
+            "service": "手續費",
+            "icome": "入賬金額",
+            "orderNum": "賬單號",
+            "state": "劃款狀態",
+            "transfer": "劃款日期"
+        }
+    },
+    "SellRefund": {
+        "orderType": {
+            "refund": "退款",
+            "recharge": "充值"
+        },
+        "thead": {
+            "refundNum": "退款單號",
+            "type": "類型",
+            "money": "金額",
+            "state": "狀態",
+            "submitTime": "提交時間",
+            "member": "會員卡號",
+            "belong": "訂單歸屬",
+            "disposalTime": "處理時間",
+            "detail": "詳情備註"
+        }
+    },
+    "Device": {
+        "title": "機器列表",
+        "options": {
+            "list": "列表展示",
+            "card": "卡片展示"
+        },
+        "thead": {
+            "device": "設備信息",
+            "qrcode": "二維碼物料",
+            "qrcodeMin": "二維碼",
+            "position": "門店信息",
+            "state": "狀態",
+            "goods": "產品",
+            "account": "收款帳戶",
+            "handel": "操作"
+        },
+        "handle": {
+            "manage": "管理貨架",
+            "device": "設備信息",
+            "setting": "配置信息"
+        },
+        "noPosition": "暫無門店信息",
+        "state": {
+            "online": "在線",
+            "offline": "離線",
+            "none": "暫無狀態"
+        }
+    },
+    "EditDeviceInfo": {
+        "label": {
+            "name": "設備名稱",
+            "store": "所在門店"
+        },
+        "tips": {
+            "name": "設備名稱",
+            "group": "請選擇區域",
+            "store": "請選擇門店",
+            "noStore": "該區域暫時沒有門店，您可以",
+            "addStore": "添加門店",
+            "nameRequired": "請輸入門店名稱",
+            "storeRequired": "請為機器選擇所在門店"
+        }
+    },
+    "Channel": {
+        "noChannel": "未能檢查到設備貨道,請重啓設備",
+        "add": "一鍵補貨",
+        "dec": "一鍵沽清",
+        "exhibit": "批量上貨",
+        "clear": "清空全部信息",
+        "output": "導出貨道信息",
+        "tips": "以上為設備一些快捷鍵操作",
+        "quantity": "餘量",
+        "noGoods": "未上架商品",
+        "addMax": "補滿",
+        "decMin": "沽清"
+    },
+    "EditChannel": {
+        "title": "信息",
+        "time": "時長：",
+        "desc": "規格：",
+        "price": "價格：",
+        "noGoods": "未上架商品",
+        "tips": "點擊右邊商品可以快速上架商品",
+        "selectTips": "選擇對應貨道，可以批量上貨/修改貨道。批量上貨會覆蓋當前已上架信息",
+        "tag": "商品",
+        "label": {
+            "maxcap": "貨道容量",
+            "quantity": "剩餘數量",
+            "price": "售賣價格",
+            "isonline": "是否可售",
+            "status": "貨道狀態",
+            "title": "貨物標題"
+        },
+        "handle": {
+            "fill": "一鍵補滿",
+            "remove": "移除商品",
+            "selectAll": "全選"
+        },
+        "goodsStatus": {
+            "normal": "正常",
+            "abnormal": "異常",
+            "empty": "缺貨"
+        },
+        "goodList": "商品列表",
+        "warn": "注意： 紅色背景為未通過審核的商品，不可上架售賣；"
+    },
+    "Qrcode": {
+        "download": "點擊標題可下載"
+    },
+    "Location": {
+        "group": "區域",
+        "store": "門店",
+        "position": "位置",
+        "manage": "管理",
+        "change": "修改",
+        "noStore": "暫無門店",
+        "label": {
+            "chooseGroup": "選擇區域",
+            "gorupStore": "區域/門店",
+            "position": "門店名稱",
+            "addres": "詳細地址",
+            "admin": "聯繫人"
+        },
+        "tips": {
+            "group": "請選擇區域",
+            "empty": "列表為空",
+            "location": "請選擇所在省市縣",
+            "desc": "請填寫備註"
+        },
+        "thead": {
+            "groupName": "區域名稱",
+            "storeName": "門店名稱",
+            "positionName": "位置名稱",
+            "storeNum": "門店數量",
+            "mobile": "聯繫電話",
+            "desc": "備註",
+            "time": "創建時間",
+            "handle": "操作",
+            "groupBefore": "所屬區域",
+            "location": "所在省市縣",
+            "deviceNum": "設備數量",
+            "addres": "門店地址",
+            "phone": "位置電話",
+            "groupStore": "區域門店",
+            "id": "位置ID"
+        },
+        "error": {
+            "groupName": "請輸入區域名稱",
+            "storeName": "請輸入門店名稱",
+            "positionName": "請輸入位置名稱",
+            "groupStore": "請選擇區域及門店",
+            "addres": "請輸入門店詳細地址",
+            "admin": "請輸入聯繫人",
+            "mobile": "請輸入聯繫電話"
+        }
+    },
+    "Goods": {
+        "options": {
+            "personal": "個人庫",
+            "cloud": "雲庫"
+        },
+        "handle": {
+            "newGoods": "新增個人商品庫",
+            "manageGoods": "管理圖片資源"
+        },
+        "goods": {
+            "price": "價格：",
+            "time": "時長：",
+            "format": "規格：",
+            "sell": "已售：",
+            "abstract": "簡介：",
+            "handle": {
+                "del": "刪除",
+                "edit": "編輯",
+                "addToPerson": "提交審核",
+                "audit": "審核中",
+                "syncToCloud": "同步到個人庫"
+            }
+        },
+        "goodTag": {
+            "all": "全部商品",
+            "serve": "服務類",
+            "entity": "實體類",
+            "drink": "飲品",
+            "sock": "零食",
+            "tips": "分類篩選功能即將上線，敬請期待"
+        }
+    },
+    "EditGoods": {
+        "label": {
+            "type": "商品類型",
+            "name": "商品名稱",
+            "price": "商品價格",
+            "time": "服務時長",
+            "format": "規格",
+            "desc": "描述",
+            "img": "圖片"
+        },
+        "type": {
+            "entity": "實體商品",
+            "serve": "服務類商品"
+        },
+        "tips": {
+            "name": "商品名稱",
+            "desc": "商品描述，30字以內"
+        },
+        "imgListTitle": "可用圖片"
+    },
+    "EditImg": {
+        "list": "圖片列表",
+        "uploadTitle": "圖片上傳",
+        "uploadBtn": "點擊上傳圖片",
+        "uploadTip1": "每人最多可以上傳100張200Kb以下的圖片(格式：JPG/PNG)",
+        "uploadTip2": "公測版一次只能上傳一張，後續將會開放批量上傳"
+    },
+    "Member": {
+        "title": "會員列表",
+        "thead": {
+            "card": "卡號",
+            "type": "卡類型",
+            "balance": "卡餘額",
+            "rechargeTotal": "累積充值",
+            "spendingTotal": "累積消費",
+            "latest": "最後一次充值/消費",
+            "latestDevice": "最後一次充值/消費設備",
+            "account": "儲蓄池賬戶",
+            "storagePoolBalance": "儲蓄池餘額"
+        }
+    },
+    "Loading": {
+        "title": "活動彈窗配置",
+        "switch": "活動彈窗：",
+        "open": "開",
+        "close": "關",
+        "tipsTitle": "示例說明",
+        "switchTips": "默認關閉；開啟后，支付頁面載入時將會展示活動彈窗",
+        "tips11": "1、當您在",
+        "tips1Strong": "營銷活動",
+        "tips12": "裡面增加充值返贈活動，并開啟loading page；消費者掃描二維碼，會先展示您設置的充值翻贈優惠信息。",
+        "tips2": "2、活動彈窗配置默認展示5秒；可以隨時關閉",
+        "tips31": "3、活動彈窗配置優先展示您設置的營銷活動；如近期無營銷活動，則展示支付渠道活動（如：",
+        "tips32": "鼓勵金）",
+        "tips4": "4、如無任何活動，則展示購物流程提示",
+        "imgTips1": "營銷活動 圖示",
+        "imgTips2": "渠道活動 圖示",
+        "imgTips3": "購物幫助 圖示"
+    },
+    "Activity": {
+        "title": "營銷活動",
+        "skip": "快速選擇",
+        "activity": "活動",
+        "to": "至",
+        "fill": "滿",
+        "gift": "贈",
+        "times": "次",
+        "percent": "次/人",
+        "change": "修改活動",
+        "vrmoney": "優惠金額",
+        "device": "設備",
+        "noDevice": "暫無設備",
+        "thead": {
+            "name": "活動名稱",
+            "desc": "優惠說明",
+            "percent": "優惠次數",
+            "total": "發放總量",
+            "range": "活動範圍",
+            "count": "營銷統計",
+            "time": "活動時間",
+            "updatetime": "操作時間",
+            "state": "活動狀態",
+            "handle": "操作"
+        },
+        "tips": {
+            "state": "請選擇活動狀態",
+            "name": "請輸入活動名稱",
+            "stime": "請選擇活動開始時間",
+            "etime": "請選擇活動結束時間",
+            "percent": "請限制每人參與次數",
+            "eg": "例如：滿10贈5，即充值10圓送5圓（紅包）",
+            "warn": "注意：贈送的金額不能超過本金50%",
+            "nameLimit": "活動名稱長度最大為15字",
+            "range1": "活動範圍指的是參與本活動的設備；",
+            "range2": "默認全部設備參與，也可以選擇某區域/門店，或者針對單一設備"
+        },
+        "inputTips": {
+            "name": "活動名稱（2-15字）",
+            "percent": "活動期間每人最大領取次數",
+            "total": "不填寫默認為不限制發放總量"
+        },
+        "detail": {
+            "stotal": "發行量",
+            "vrtotal": "總金額",
+            "act_time": "累計參與次數",
+            "act_money": "累計充值金額",
+            "act_vrmoney": "累計贈送金額",
+            "addtime": "創建時間",
+            "updatetime": "修改時間"
+        },
+        "timeChose": {
+            "clear": "清空時間",
+            "today": "今日",
+            "yestoday": "昨日",
+            "last7": "最近七日",
+            "thisMonth": "本月",
+            "lastMonth": "上月"
+        },
+        "state": {
+            "inline": "活動進行中",
+            "online": "活動上線",
+            "offline": "活動下線",
+            "end": "活動結束",
+            "willStart": "活動未開始"
+        }
+    },
+    "Bankcard": {
+        "account": {
+            "title": "收款賬戶",
+            "unliquidated": "未結算金額",
+            "freeze": "凍結備付金",
+            "account": "標題",
+            "state": {
+                "suc": "正常"
+            },
+            "main": "主收款賬戶",
+            "msgTitle": "收款信息",
+            "time": "創建時間"
+        },
+        "bankCard": {
+            "title": "銀行卡",
+            "type": {
+                "person": "對私賬號",
+                "public": "對公賬號"
+            },
+            "position": "所在省市",
+            "card": "銀行卡號",
+            "phone": "持卡人手機號",
+            "idCard": "證件號"
+        },
+        "wechat": {
+            "title": "微信賬戶列表",
+            "name": "真實姓名",
+            "idCard": "證件號碼",
+            "phone": "手機號碼",
+            "time": "創建時間",
+            "type": "用戶類型"
+        }
+    },
+    "Wxnotice": {
+        "Edit": {
+            "typeLabel": "賬號類型：",
+            "admin": "管理員",
+            "loader": "補貨員",
+            "adminTip": "可以接收到機器異常通知，補貨/缺貨通知，消費者投訴(後期支持)",
+            "loaderTip": "可以接收到補貨/缺貨通知"
+        },
+        "List": {
+            "switch": "消息開關：",
+            "sex": "性別：",
+            "country": "國籍：",
+            "position": "位置："
+        },
+        "handle": {
+            "del": "刪除",
+            "new": "新增",
+            "refresh": "刷新列表"
+        }
+    },
+    "Account": {
+        "handle": {
+            "add": "添加子賬號",
+            "tips": "注意：暂时不支持自定义子账号权限"
+        }
+    }
+}
